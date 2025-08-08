@@ -18,7 +18,7 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:4242', 'http://127.0.0.1:4242', "https://20b943945eea.ngrok-free.app"],
+      origin: ['http://localhost:4242', 'http://127.0.0.1:4242', "https://str333ak-pcs.web.app/"],
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
       headers: ['Content-Type', 'Authorization'],
       credentials: true,
