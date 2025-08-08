@@ -18,9 +18,14 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:4242', 'http://127.0.0.1:4242', "https://str333ak-pcs.web.app/"],
+      enabled: true,
+      origin: [
+        'http://localhost:4242',
+        'http://127.0.0.1:4242',
+        'https://str333ak-pcs.web.app',
+      ],
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
-      headers: ['Content-Type', 'Authorization'],
+      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
       credentials: true,
     },
   },
